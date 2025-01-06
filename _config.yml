@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
+theme                    : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -21,10 +21,11 @@ title                    : "Portfolio"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Sherry Xueyan Bai"
+avatar                   : "/assets/images/bio-photo.jpg"
 description              : "Sherry Xueyan Bai's portfolio as a data analyst."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://sherryxbai.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "SherryxBai/sherryxbai.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -114,53 +115,36 @@ analytics:
 # Site Author
 author:
   name             : "Sherry Bai"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Transform education via data science and gaming."
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "Transforming education through data science."
   location         : "Washington, DC"
   email            : "sherrybai404@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "sherrybai404@gmail.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+    - label: "WordPress"
+      icon: "fa-brands fa-wordpress"
+      url: "https://sherrybaibai.wordpress.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/SherryxBai"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "WordPress"
+      icon: "fa-brands fa-wordpress"
+      url: "https://sherrybaibai.wordpress.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
-
-
+      url: "https://github.com/SherryxBai"
+    
+header:
+  image: /assets/images/header_pic.jpg
+  image_description: "Default serene header image."
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: /assets/images/header_pic.jpg
+  overlay_filter: "rgba(0, 0, 0, 0.5)"
+  show_overlay_excerpt: true
+  
 # Reading Files
 include:
   - .htaccess

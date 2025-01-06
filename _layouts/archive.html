@@ -2,12 +2,14 @@
 layout: default
 ---
 
+<!-- 头图 -->
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
 {% endif %}
 
+<!-- 面包屑导航 -->
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -15,8 +17,10 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
+  <!-- 左侧边栏 -->
   {% include sidebar.html %}
 
+  <!-- 右侧内容 -->
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</h1>
