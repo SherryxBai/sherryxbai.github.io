@@ -12,32 +12,133 @@ header:
 <!-- About Me Section -->
 <section id="about-me">
   <h2>About Me</h2>
-  <p>Transform education via data science and gaming.</p>
+  <p>I am an aspiring educator and interdisciplinary researcher with four years of experience as a data analyst. I also enjoy developing computer games for my students.</p>
 </section>
 
-<!-- Recent Posts Section -->
-<section id="recent-posts">
-  <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-  {% if paginator %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
-  {% assign entries_layout = page.entries_layout | default: 'list' %}
-  <div class="entries-{{ entries_layout }}">
-    {% include documents-collection.html entries=posts type=entries_layout %}
+<!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  
+  <p>
+    <strong>University of Maryland, College Park</strong><br>
+    Master of Education (M.Ed.), Teaching and Learning, Policy and Leadership<br>
+  </p>
+  
+  <p>
+    <strong>Washington University in St. Louis</strong><br>
+    Bachelor of Science, Business Administration, Quantitative Finance<br>
+  </p>
+  
+  <p>
+    <strong>Wuhan University (QS China Top #10)</strong><br>
+    Undergraduate Coursework in Philosophy<br>
+  </p>
+</section>
+
+<!-- Experience Section
+<section id="experience">
+  <h2>Experience</h2>
+  <p>
+    Research Data Analyst, Bilibili Inc. (2020–2024)
+    Chinese Teacher, College Park Academy (2024–Present)
+    Volunteer Tax Preparer, IRS Volunteer Income Tax Assistance Program
+  </p>
+</section> -->
+
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div>
+    <h3>Diversity-Focused Classroom Research</h3>
+    <p>
+      <strong>College Park Academy | College Park, MD | 2024.09 – Present</strong><br>
+      • Conducted classroom research on diversity and differentiation strategies to address varied learning needs among middle school students in a Chinese language program.<br>
+      • Analyzed student engagement and performance data, focusing on cultural and linguistic differences, to develop actionable teaching insights.<br>
+      • Presented research findings to educators through infographics and comprehensive reports to promote inclusive teaching practices.
+    </p>
   </div>
-  {% include paginator.html %}
+
+  <div>
+    <h3>The Effects of Video Game Usage on Adolescent Development</h3>
+    <p>
+      • Authored a research paper analyzing the psychological, social, and cognitive impacts of video game usage on adolescents, highlighting both benefits and potential risks.<br>
+      • Designed and presented infographics summarizing key findings in parent workshops, aimed at fostering awareness and supporting informed decision-making.
+    </p>
+  </div>
+
+  <div>
+    <h3>Volunteer Tax Preparer</h3>
+    <p>
+      <strong>IRS Volunteer Income Tax Assistance (VITA) Program | Saint Louis, MO</strong><br>
+      • Assisted lower-income families with tax preparation, ensuring accurate filings and maximizing eligible refunds.<br>
+      • Provided financial literacy support, helping clients understand tax credits and deductions.<br>
+      • Delivered services with a focus on equity, benefiting underserved communities.
+    </p>
+  </div>
+
+  <div>
+    <h3>Marketing Strategy Development for Under Armour</h3>
+    <p>
+      <strong>Deloitte Case Competition | Winner</strong><br>
+      • Developed a comprehensive market entry strategy for Under Armour’s expansion into China, focusing on innovative marketing approaches tailored to local consumer behavior.<br>
+      • Proposed flash pop-up stores and co-branded campaigns, which were implemented in 12 key locations across Beijing, Shanghai, and Guangzhou.<br>
+      • Collaborated with a cross-functional team to deliver actionable insights and detailed plans, earning first place in the competition.
+    </p>
+  </div>
+
+  <div>
+    <h3>Annual Budget Storyboard Display</h3>
+    <p>
+      <strong>Saint Louis Zoo | Saint Louis, MO</strong><br>
+      • Designed a visual storyboard to communicate the zoo’s annual budget to stakeholders, simplifying complex financial data into accessible narratives.<br>
+      • Collaborated with non-profit management to align budgetary goals with strategic priorities, increasing transparency and stakeholder engagement.
+    </p>
+  </div>
+
+  <div>
+    <h3>Bilingual Interpreter for UMD Medical School Delegation</h3>
+    <p>
+      <strong>Maryland State House | Annapolis, MD</strong><br>
+      • Provided simultaneous interpretation between Chinese and English during academic lectures and discussions involving University of Maryland Medical School scholars and US and Chinese government officials.<br>
+      • Interpreted presentations on cutting-edge medical imaging advancements, ensuring accurate communication of complex scientific concepts, and demonstrating technical proficiency and cross-cultural adaptability in high-pressure settings.
+    </p>
+  </div>
+
+  <div>
+    <h3>Financial Data Analysis Intern</h3>
+    <p>
+      <strong>American International Group (NYSE: AIG) | New York, NY</strong><br>
+      • Conducted financial data analysis to support decision-making processes, including asset valuation and forecasting.<br>
+      • Developed discounted cash flow (DCF) models and presented key insights through visual dashboards using Tableau.<br>
+      • Gained experience in leveraging data to inform strategic planning, demonstrating analytical rigor and attention to detail.
+    </p>
+  </div>
 </section>
 
-<!-- Collections Section -->
-<section id="collections">
-  <h2>Collections</h2>
-  <p>This is the collections section where you can highlight projects or other collections.</p>
-</section>
 
-<!-- Sitemap Section -->
-<section id="sitemap">
-  <h2>Sitemap</h2>
-  <p>This is the sitemap section with links to all pages.</p>
+<!-- Endorsements Section -->
+<section id="endorsements">
+  <h2>Endorsements</h2>
+
+  <div class="endorsement">
+    <blockquote>
+      "Sherry's ability to seamlessly combine data analysis with storytelling is exceptional. Her work not only identifies disparities but also presents solutions in ways that inspire action."
+    </blockquote>
+    <p><strong>— Bao, Former Manager, Bilibili</strong></p>
+  </div>
+
+  <div class="endorsement">
+    <blockquote>
+      "As a teacher and researcher, Sherry demonstrates a unique understanding of multicultural dynamics, ensuring that every student feels valued and heard."
+    </blockquote>
+    <p><strong>— Laura, Teaching Mentor, College Park Academy</strong></p>
+  </div>
+
+  <div class="endorsement">
+    <blockquote>
+      "Sherry's interdisciplinary approach and commitment to equity set her apart. She is a true innovator in education and social justice initiatives."
+    </blockquote>
+    <p><strong>— Alice, Colleague, Washington University</strong></p>
+  </div>
 </section>
