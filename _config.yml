@@ -122,6 +122,7 @@ author:
   links:
     - label: "Rooster Heart Studio"
       icon: "fa-regular fa-heart"
+      url: "https://sherryxbai.github.io/"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
@@ -134,6 +135,7 @@ footer:
   links:
     - label: "Rooster Heart Studio"
       icon: "fas fa-fw fa-gamepad"
+      url: "https://sherryxbai.github.io/"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
