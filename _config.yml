@@ -121,7 +121,7 @@ author:
   email            : "sherrybai404@gmail.com"
   links:
     - label: "Rooster Heart Studio"
-      icon: "fa-regular fa-heart"
+      icon: "fa-solid fa-heart-pulse"
       url: "https://sherryxbai.github.io/"
     - label: "itch.io"
       icon: "fa-brands fa-itch-io"
@@ -137,7 +137,7 @@ author:
 footer:
   links:
     - label: "Rooster Heart Studio"
-      icon: "fa-regular fa-heart"
+      icon: "fa-solid fa-heart-pulse"
       url: "https://sherryxbai.github.io/"
     - label: "itch.io"
       icon: "fa-brands fa-itch-io"
