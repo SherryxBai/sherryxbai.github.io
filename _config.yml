@@ -117,7 +117,10 @@ analytics:
 author:
   name             : "Sherry Bai"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "EdTech Founder | Game Developer | Former Game Data Scientist"
+  bio: |
+    EdTech Founder  
+    Game Developer  
+    Data Scientist
   location         : "Washington, DC"
   email            : "sherrybai404@gmail.com"
   links:
