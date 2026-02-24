@@ -117,10 +117,13 @@ analytics:
 author:
   name             : "Sherry Bai"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Transforming education through data science."
+  bio              : "EdTech Founder | Game Developer | Former Game Data Scientist"
   location         : "Washington, DC"
   email            : "sherrybai404@gmail.com"
   links:
+    - label: "Rooster Heart Studio"
+      icon: "fas fa-fw fa-gamepad"
+      url: "https://github.com/SherryxBai"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
