@@ -20,7 +20,6 @@ rtl                      : # true, false (default) # turns direction of the page
 
 title                    : "Sherry Xueyan Bai | EdTech & Game Design"
 title_separator          : "-"
-subtitle                 : "Bridging world-class game mechanics and K-12 education."
 name                     : "Sherry Xueyan Bai"
 avatar                   : "/assets/images/bio-photo.jpg"
 description              : "EdTech Founder and Game Designer with 10 years of industry experience. Transforming K-12 mathematics through adaptive, narrative-driven gameplay."
@@ -117,10 +116,7 @@ analytics:
 author:
   name             : "Sherry Bai"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio: |
-    EdTech Founder  
-    Game Developer  
-    Data Scientist
+  bio: "EdTech Founder and Game Designer with 10 years of industry experience. Transforming K-12 mathematics through adaptive, narrative-driven gameplay."
   location         : "Washington, DC"
   email            : "sherrybai404@gmail.com"
   links:
