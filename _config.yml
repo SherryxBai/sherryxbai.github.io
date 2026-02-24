@@ -17,12 +17,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Portfolio"
+
+title                    : "Sherry Xueyan Bai | EdTech & Game Design"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Bridging world-class game mechanics and K-12 education."
 name                     : "Sherry Xueyan Bai"
 avatar                   : "/assets/images/bio-photo.jpg"
-description              : "Sherry Xueyan Bai's portfolio as a data analyst."
+description              : "EdTech Founder and Game Designer with 10 years of industry experience. Transforming K-12 mathematics through adaptive, narrative-driven gameplay."
 url                      : "https://sherryxbai.github.io/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "SherryxBai/sherryxbai.github.io"
