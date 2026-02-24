@@ -125,8 +125,7 @@ author:
   email            : "sherrybai404@gmail.com"
   links:
     - label: "Rooster Heart Studio"
-      icon: "fas fa-fw fa-gamepad"
-      url: "https://github.com/SherryxBai"
+      icon: "fa-regular fa-heart"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
