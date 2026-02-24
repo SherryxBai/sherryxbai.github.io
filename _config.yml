@@ -132,6 +132,8 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Rooster Heart Studio"
+      icon: "fas fa-fw fa-gamepad"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
