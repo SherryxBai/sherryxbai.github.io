@@ -24,6 +24,8 @@
 
 
 main:
+  - title: "Rooster Heart Studio"
+    url: "#rooster-heart-studio" # 或者你工作室的专门页面链接
   - title: "About Me"
     url: "#about-me"
   - title: "Education"
