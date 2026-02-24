@@ -123,6 +123,9 @@ author:
     - label: "Rooster Heart Studio"
       icon: "fa-regular fa-heart"
       url: "https://sherryxbai.github.io/"
+    - label: "itch.io"
+      icon: "fa-brands fa-itch-io"
+      url: "https://sherryxbai.itch.io/math-escape-room"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
@@ -134,8 +137,11 @@ author:
 footer:
   links:
     - label: "Rooster Heart Studio"
-      icon: "fas fa-fw fa-gamepad"
+      icon: "fa-regular fa-heart"
       url: "https://sherryxbai.github.io/"
+    - label: "itch.io"
+      icon: "fa-brands fa-itch-io"
+      url: "https://sherryxbai.itch.io/math-escape-room"
     - label: "WordPress"
       icon: "fa-brands fa-wordpress"
       url: "https://sherrybaibai.wordpress.com/"
